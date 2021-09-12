@@ -33,8 +33,8 @@ public class Process {
 			this.sum = (int)((0.10)*this.sales);
 			this.sum = this.sum + this.salary;
 		}
-		if(this.sum < 12000) {
-			this.sum = 12000;
+		if (this.salary < 15000 && this.sales > 100001) {
+			this.sum = this.sum + 5000;
 		}
 		return this.sum;
 		
